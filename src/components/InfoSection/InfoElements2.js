@@ -1,0 +1,167 @@
+import styled from 'styled-components';
+
+
+
+export const InfoContainer = styled.div`
+    display: flex;
+    width:100%
+    margin:80px;
+    flex-direction: column;
+    background:#fff;
+    align-items:left;
+    text-align:left;
+    `;
+
+    export const InfoRow1 = styled.div`
+    background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
+    
+    align-items:left;
+    text-align: left;
+    
+    display: grid;
+
+    }
+`;
+
+
+    export const InfoRow = styled.div`
+    
+    width: 1080px;
+    align-items:flex-start;
+    background: #fff;
+    display:flex;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap:2px;
+    padding: 0px;
+    
+    }
+`;
+
+export const InfoColumn1 = styled.div`
+    margin-bottom: 5px;
+    
+    padding: 0 px;
+    text-align: left;
+    align-items:flex-start;
+    grid-area: 1fr;
+    background:;
+    
+`;
+export const Row1 = styled.div`
+    display:grid;
+    grid-template-columns:.5fr  .5fr;
+    grid-gap: 2px;
+`;
+
+export const Column1 = styled.div`
+    text-align: center;
+    grid-area: .5fr;
+    background: #42F45F;
+`;
+
+export const Column2 = styled.div`
+    text-align: center;
+    grid-area: .5fr;
+    background:#000000;
+`
+
+export const InfoColumn2 = styled.div`
+    margin-top: 5px;
+    padding: 0 px;
+    align-items:flex-start;
+    text-align: left;
+    grid-area: 1fr;
+    
+`;
+
+export const TopHeader = styled.h3`
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0082FF;
+    align-self: stretch;
+`
+
+export const Heading = styled.h1`
+    margin-bottom: 16px;
+    font-family:Inter;
+    text-align:left;
+    align-items:center;
+    
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color:010606;
+
+`;
+
+export const Description = styled.p`
+    align-items:left;
+    text-align:left;
+    
+    max-width:570px;
+    font-size: 20px;
+    line-height:24px;
+    color:#667085;
+`;
+
+export const ColHeader = styled.h4`
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    text-align:center;
+    letter-spacing: -0.0.em;
+    color: #0082FF
+`
+
+export const SubHeading = styled.h2`
+    align-items: center;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: 'Inter';
+    font-style: normal;
+    color:010606;
+`;
+
+export const SubDescription = styled.p`
+    align-items:center;
+    width:700px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    line-height:24px;
+    font-weight:400;
+    color:#667085;
+
+    @media screen and (max-width:1130px) {
+        width:auto;
+    }
+`;
+
+export const Img = styled.img`
+    width: 100%;
+    margin:0;
+    padding-right: 0px;
+`;
+
+export const ImgWrap = styled.div`
+    width: 15%;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+`;
+
+export const ImgA = styled.img`
+    align-items: center;
+    
+    margin:0;
+    padding-right: 0px;
+
+    @media screen and (max-width:800px) {
+        width:auto;
+    }
+`;
+
