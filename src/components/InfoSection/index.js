@@ -104,9 +104,9 @@ const InfoSection = ({headline, headline3, description, buttonLabel, buttonLabel
               <Heading>{headline3}</Heading>
             </InfoRow>
             <InfoRow>
-            <ImgWrap>
+            
                     <Img src={img1} alt={alt1}/>
-                    </ImgWrap>
+                    
                     <ContentHeading>{name1}</ContentHeading>
                     <ContentDescription>{post}</ContentDescription>
             </InfoRow>

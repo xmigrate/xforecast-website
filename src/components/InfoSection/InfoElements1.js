@@ -157,5 +157,11 @@ export const ImgA = styled.img`
     @media screen and (max-width:800px) {
         width:auto;
     }
+    @media screen (max-width: 1080px) {
+        width:auto;
+    }
+    @media screen (max-width: 920px) {
+        width:auto;
+    }
 `;
 

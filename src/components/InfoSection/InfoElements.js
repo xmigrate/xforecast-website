@@ -128,10 +128,16 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    width: auto;
+    width: 100%;
     margin:0;
     padding-right: 0px;
 
+    @media screen (max-width: 800px) {
+        width:auto;
+    }
+    @media screen (max-width: 720px) {
+        width:auto;
+    }
     @media screen (max-width: 1080px) {
         width:auto;
     }
