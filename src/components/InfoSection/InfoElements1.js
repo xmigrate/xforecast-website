@@ -7,6 +7,7 @@ export const Button = styled(Link)`
     padding:10px 18px;
     color: ${({ dark }) => (dark ? '#344054' : '#ffffff')};
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+    font-family: 'Inter';
     outline: none;
     border: 1px;
 
@@ -88,6 +89,7 @@ export const Heading = styled.h1`
     margin-right: auto;
     margin-left: auto;
     font-size: 48px;
+    font-family: 'Inter';
     line-height: 1.1;
     font-weight: 600;
     color:010606;
@@ -101,6 +103,7 @@ export const Description = styled.p`
     margin-left: auto;
     max-width:570px;
     font-size: 18px;
+    font-family: 'Inter';
     line-height:14px;
     color:#667085;
 `;
@@ -117,6 +120,7 @@ export const SubHeading = styled.h2`
 
 export const SubDescription = styled.p`
     align-items:center;
+    font-family: 'Inter';
     width:700px;
     margin-right: auto;
     margin-left: auto;

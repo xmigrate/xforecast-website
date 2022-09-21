@@ -57,13 +57,13 @@ export const Row1 = styled.div`
 export const Column1 = styled.div`
     text-align: center;
     grid-area: .5fr;
-    background: #42F45F;
+    
 `;
 
 export const Column2 = styled.div`
     text-align: center;
     grid-area: .5fr;
-    background:#000000;
+    
 `
 
 export const InfoColumn2 = styled.div`
@@ -78,6 +78,7 @@ export const InfoColumn2 = styled.div`
 export const TopHeader = styled.h3`
     font-weight: 600;
     font-size: 16px;
+    font-family: 'Inter';
     line-height: 24px;
     color: #0082FF;
     align-self: stretch;
@@ -88,7 +89,7 @@ export const Heading = styled.h1`
     font-family:Inter;
     text-align:left;
     align-items:center;
-    
+    font-family: 'Inter';
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
@@ -99,7 +100,7 @@ export const Heading = styled.h1`
 export const Description = styled.p`
     align-items:left;
     text-align:left;
-    
+    font-family: 'Inter';
     max-width:570px;
     font-size: 20px;
     line-height:24px;
@@ -109,6 +110,7 @@ export const Description = styled.p`
 export const ColHeader = styled.h4`
     font-weight: 600;
     font-size: 60px;
+    font-family: 'Inter';
     line-height: 72px;
     text-align:center;
     letter-spacing: -0.0.em;
@@ -128,6 +130,7 @@ export const SubHeading = styled.h2`
 export const SubDescription = styled.p`
     align-items:center;
     width:700px;
+    font-family: 'Inter';
     margin-right: auto;
     margin-left: auto;
     font-size: 16px;
