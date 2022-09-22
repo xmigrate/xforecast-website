@@ -31,7 +31,7 @@ export const InfoContainer = styled.div`
     
     display: grid;
 
-    }
+    
 `;
 
 
@@ -124,6 +124,9 @@ export const InfoColumn2 = styled.div`
     @media screen and (max-width:730px) {
         width:auto;
     }
+    @media screen and (max-width:520px) {
+        width:auto;
+    }
     
 `;
 
@@ -195,11 +198,7 @@ export const SubDescription = styled.p`
     }
 `;
 
-export const Img = styled.img`
-    width: 100%;
-    margin:0;
-    padding-right: 0px;
-`;
+
 
 export const ImgWrap = styled.div`
     width: 15%;
@@ -211,18 +210,15 @@ export const ImgWrap = styled.div`
 
 export const ImgA = styled.img`
     align-items: center;
-    width:100%;
+    max-width:100%;
     margin:0;
     padding-right: 0px;
 
     @media screen and (max-width:1080px) {
         width:auto;
-    }
-    @media screen and (max-width:920px) {
-        width:auto;
-    }
-    @media screen and (max-width:730px) {
-        width:auto;
-    }
+    
+    
+
+    
 `;
 
