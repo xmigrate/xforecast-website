@@ -29,11 +29,22 @@ export const Button = styled(Link)`
 
 export const InfoContainer = styled.div`
     display: flex;
-    margin:100px;
+    margin-left:10%;
     flex-direction: column;
     background:#fff;
     align-items: center;
     text-align: center;
+
+    @media screen (max-width: 730px) {
+        width:auto;
+    }
+    @media screen (max-width: 1080px) {
+        width:auto;
+    }
+    @media screen (max-width: 920px) {
+        width:auto;
+    }
+
     `;
 
     export const InfoRow1 = styled.div`
@@ -59,6 +70,14 @@ export const InfoContainer = styled.div`
     grid-gap:20px;
     padding: 0 200px;
     
+    @media screen (max-width: 730px) {
+        width:auto;
+    }
+    @media screen (max-width: 1080px) {
+        width:auto;
+    }
+    @media screen (max-width: 920px) {
+        width:auto;
     }
 `;
 

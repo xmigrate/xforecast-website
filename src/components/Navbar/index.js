@@ -35,7 +35,7 @@ const Navbar = ({toggle}) => {
                     <NavLinks to='pricing'>Pricing</NavLinks>
                 </NavItem>
                 <NavBtn>
-                    <NavBtnLink to='/github'>Get Started on Github <FaGithub /></NavBtnLink>
+                    <NavBtnLink to='github.com'>Get Started on Github <FaGithub /></NavBtnLink>
                 </NavBtn>
             </NavMenu>
             </NavbarContainer>  

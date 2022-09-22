@@ -1,0 +1,23 @@
+export const homeObjOne = {
+
+    topline:'Use cases',
+    headline1:'Cutting-edge features for advanced analytics',
+    description1:'Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.',
+    contentheading1:'Share team inboxes',
+    contentheading2:'Deliver instant answers',
+    contentheading3:'Manage your team with reports',
+    contentdescription1:'Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.',
+    contentdescription2:'An all-in-one customer service platform that helps you balance everything your customers need to be happy.',
+    contentdescription3:'Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.',
+    contentheading4:'Connect with customers',
+    contentheading5:'Connect the tools you already use',
+    contentheading6:'Our people make the difference',
+    contentdescription4:'Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.',
+    contentdescription5:'Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.',
+    contentdescription6:'We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.',
+    headline3:'We’ve been using Untitled to kick start every new project and can’t imagine working without it.',
+    img1: require('../../images/svg-2.jpg'),
+    alt1: 'man',
+    post:'Product Manager, Sisyphus',
+    name1:'Candice Wu',
+}

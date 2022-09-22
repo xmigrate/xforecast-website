@@ -33,7 +33,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/github'>Get Started on Github <FaGithub /></SidebarRoute>
+                <SidebarRoute to='github.com'>Get Started on Github <FaGithub /></SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

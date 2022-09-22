@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 
 export const InfoContainer = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: column;
     background:#fff;
@@ -35,27 +36,38 @@ export const InfoRow = styled.div`
 
 export const InfoRow1 = styled.div`
     
-    width: 100%;
+    width: 80%;
     align-items:center;
     background: #fff;
     display: grid;
-    
+    grid-width:2fr;
     grid-template-columns: 2fr 2fr 2fr;
-    grid-gap:20px;
+    grid-gap: 20px;
     padding: 0 200px;
+    
+    @media screen (max-width: 920px) {
+        width:auto;
+    }
+    @media screen (max-width: 720px) {
+        width:auto;
+    }
+    @media screen (max-width: 1080px) {
+        width:auto;
     }
 `;
 
 export const Column1 = styled.div`
+    
     margin-bottom: 10px;
     padding: 0 px;
     align-items: center;
     grid-area: 2fr;
-    
+
 `;
 
 export const Column2 = styled.div`
     margin-bottom: 10px;
+    
     padding: 0 px;
     align-items: center;
     grid-area: 2fr;
@@ -64,7 +76,7 @@ export const Column2 = styled.div`
 
 export const Column3 = styled.div`
     margin-bottom: 10px;
-    
+
     align-items: center;
     grid-area: 2fr;
     
@@ -132,7 +144,7 @@ export const Img = styled.img`
     margin:0;
     padding-right: 0px;
 
-    @media screen (max-width: 800px) {
+    @media screen (max-width: 920px) {
         width:auto;
     }
     @media screen (max-width: 720px) {

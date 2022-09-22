@@ -62,13 +62,13 @@ text-align:center;
 margin-right: -22px;
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
   display: none;
 }
 `;
 
 export const NavItem = styled.li`
-height: 80px;
+height: 70px;
 `;
 
 export const NavLinks = styled(LinkS)`
@@ -86,7 +86,7 @@ cursor: pointer;
 `;
 
 export const NavBtn = styled.nav`
-display: flex;
+display:flex;
 align-items: center;
 
 @media screen and (max-width: 768px) {
@@ -103,12 +103,8 @@ font-size: 16px;
 outline: none;
 border: none;
 cursor: pointer;
-transition: all 0.2s ease-in-out;
+
 text-decoration:none;
 
-&:hover {
-  transition: all 0.2s ease-in-out;
-  background: #fff;
-  color: #010606
-}
+
 `;
