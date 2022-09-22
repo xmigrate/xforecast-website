@@ -65,7 +65,7 @@ const InfoSection4 = ({topline, heading, description, colheading1, colheading2, 
 
                 <InfoColumn2>
                     
-                    <ImgA src={img} alt={alt} />
+                    {/* <ImgA src={img} alt={alt} /> */}
                     
                 </InfoColumn2>
             </InfoRow>

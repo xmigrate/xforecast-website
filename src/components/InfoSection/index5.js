@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaSlack, FaYoutube, FaSpotify, FaGithub } from "react-icons/fa";
-
+import { IconContext } from 'react-icons';
 import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1 } from './FooterElements';
 import { BtnWrap } from './InfoElements';
 
@@ -26,10 +26,14 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
         <InfoRow1 >
         <Heading>{heading1}</Heading>
         <Description>{description1}</Description>
-        
+        <IconContext.Provider value={{ color:"#89898D", size:"6em", display:"flex", justifyContent:"space-between"}}>
         <InfoRow>
-        <FaSlack /> <FaYoutube /> <FaSpotify /><FaGithub />
+        < FaSlack to="" />
+        <FaYoutube /> 
+        <FaSpotify />
+        <FaGithub />
         </InfoRow>
+        </IconContext.Provider>
         <Description>{description2}</Description>
         </InfoRow1>
       </InfoContainer>
