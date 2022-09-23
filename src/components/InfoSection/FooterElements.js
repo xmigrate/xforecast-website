@@ -1,21 +1,14 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
 
+
 export const InfoContainer = styled.div`
     margin: 11%;
     background:#fff;
     align-items: center;
     text-align: center;
 
-    @media screen (max-width: 330px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+    
 
 `;
 
@@ -28,15 +21,7 @@ export const InfoRow1 = styled.div`
     margin-left: auto;
     
 
-    @media screen (max-width: 340px) {
-        width:auto;
-    }   
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+    
 `;
 
 export const InfoRow = styled.div`
@@ -50,15 +35,7 @@ export const InfoRow = styled.div`
     gap:15px;
     justify-content:center;
 
-    @media screen (max-width: 345px) {
-        width:auto;
-    }   
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+    
 `;
 
 
@@ -73,7 +50,7 @@ export const Heading = styled.h1`
     margin-left: auto;
     font-size: 48px;
     font-family: 'Inter';
-    line-height: 1.1;
+    line-height: auto;
     font-weight: 600;
     color:010606;
 
@@ -87,7 +64,7 @@ export const Description = styled.p`
     max-width:570px;
     font-size: 18px;
     font-family: 'Inter';
-    line-height:14px;
+    line-height:auto;
     color:#667085;
 `;
 export const Wrap = styled.div`
@@ -121,4 +98,29 @@ export const Button = styled(Link)`
     
 
 
+`;
+
+export const Container = styled.div`
+    margin:8px;
+    width:100%;
+    height:30px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+`;
+
+export const Row = styled.div`
+    display:flex;
+    flex-direction:row;
+
+`;
+
+export const Column = styled.div`
+    flex-direction:row;
+    flex:1;
+    text-align:center;
+`;
+
+export const Col = styled(Link)`
+color:#8A8A8E;
+font-family:'inter';
 `;
