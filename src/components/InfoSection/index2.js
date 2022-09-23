@@ -44,9 +44,10 @@ const InfoSection2 = ({line1,
                 <Subtitle>{subtitle}</Subtitle>
             </InfoRow>
             <InfoRow>
+              <ImgWrap>
                 
                     <Img src={img2} alt={alt2}/>
-                    
+              </ImgWrap>    
                 </InfoRow>
         </InfoContainer>
         

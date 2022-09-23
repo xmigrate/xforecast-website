@@ -137,19 +137,23 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-    max-width: 555px;
+    display:flex;
     margin-right: auto;
     margin-left: auto;
-    height: 100%;
+    
 `;
 
 export const Img = styled.img`
-    width:auto;
-    height:auto;
+    
+    width:100%;
     margin:0;
     padding-right: 0px;
 
- 
+    // @media screen and (max-width = 450px) {
+    //     width:auto;
+    //     height:auto;
+    //     align-content:center;
+    // }
 `;
 
 export const ContentHeading = styled.h2`

@@ -80,7 +80,7 @@ const InfoSection3 = ({heading, description, subheading1, subheading2, subheadin
             </InfoRow>
         </InfoContainer>
 
-        {/* <InfoContainer>
+         <InfoContainer>
             <InfoRow1 primary={true}>
                 <ImgWrap>
                 <ImgA src={img} alt={alt} />
@@ -89,7 +89,7 @@ const InfoSection3 = ({heading, description, subheading1, subheading2, subheadin
                 <SubDescription>{description1}</SubDescription>
                 <Button>{button}</Button>
             </InfoRow1>
-        </InfoContainer> */}
+        </InfoContainer> 
     </>
   )
 }

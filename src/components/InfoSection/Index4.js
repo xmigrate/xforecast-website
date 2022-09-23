@@ -64,12 +64,10 @@ const InfoSection4 = ({topline, heading, description, colheading1, colheading2, 
                 </InfoColumn1>
 
                 <InfoColumn2>
-                {/* <ColHeader>{colheading4}</ColHeader>
-                            <SubHeading>{subheading4}</SubHeading>
-                            <SubDescription>{subdes4}</SubDescription> */}
+               <ImgWrap>
                     
                      <ImgA src={img} alt={alt} />  
-                    
+                </ImgWrap>
                 </InfoColumn2>
             </InfoRow>
         </InfoContainer>

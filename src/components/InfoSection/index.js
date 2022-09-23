@@ -25,11 +25,9 @@ const InfoSection = ({headline, headline3, description, buttonLabel, buttonLabel
                         
                             
                             <Heading>{headline}</Heading>
-                            </InfoRow>
-                            <InfoRow>
+                
                             <Subtitle>{description}</Subtitle>
-                            </InfoRow>
-                            <InfoRow>
+                            
                             <BtnWrap>
                                 <Button primary={true} dark={true}><FaRegPlayCircle /> {buttonLabel}</Button>
                                  <Button>{buttonLabel1}</Button>
@@ -37,9 +35,9 @@ const InfoSection = ({headline, headline3, description, buttonLabel, buttonLabel
                         
                     
                 
-                
-                    <Img src={img} alt={alt}/>
-                    
+                     
+                      <Img src={img} alt={alt}/>
+                     
                 </InfoRow>
             </InfoWrapper>
 

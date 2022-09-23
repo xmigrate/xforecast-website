@@ -146,7 +146,7 @@ export const Img = styled.img`
 `;
 
 export const ImgWrap = styled.div`
-    width: 15%;
+    
     align-items: center;
     margin-right: auto;
     margin-left: auto;
@@ -155,18 +155,18 @@ export const ImgWrap = styled.div`
 
 export const ImgA = styled.img`
     align-items: center;
-    
+    width:auto;
     margin:0;
     padding-right: 0px;
 
-    @media screen and (max-width:800px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+    // @media screen and (max-width:345px) {
+    //     width:auto;
+    // }
+    // @media screen (max-width: 1080px) {
+    //     width:auto;
+    // }
+    // @media screen (max-width: 920px) {
+    //     width:auto;
+    // }
 `;
 

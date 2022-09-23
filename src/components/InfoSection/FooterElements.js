@@ -7,7 +7,7 @@ export const InfoContainer = styled.div`
     align-items: center;
     text-align: center;
 
-    @media screen (max-width: 730px) {
+    @media screen (max-width: 330px) {
         width:auto;
     }
     @media screen (max-width: 1080px) {
@@ -28,7 +28,7 @@ export const InfoRow1 = styled.div`
     margin-left: auto;
     
 
-    @media screen (max-width: 730px) {
+    @media screen (max-width: 340px) {
         width:auto;
     }   
     @media screen (max-width: 1080px) {
@@ -50,7 +50,7 @@ export const InfoRow = styled.div`
     gap:15px;
     justify-content:center;
 
-    @media screen (max-width: 730px) {
+    @media screen (max-width: 345px) {
         width:auto;
     }   
     @media screen (max-width: 1080px) {

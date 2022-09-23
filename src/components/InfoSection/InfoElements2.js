@@ -27,10 +27,15 @@ export const InfoContainer = styled.div`
 
 
     export const InfoRow = styled.div`
-    
+    @media only screen (min-width = 530px) { 
     display: flex;
-    flex-direction: row;
-    
+    flex-direction:column;
+    }
+    //  @media screen (max-width = 530px) { 
+                display:flex;
+    //         flex-direction:column;
+    //         align-content:center;
+    //      }
     
     
 `;
@@ -39,8 +44,7 @@ export const InfoColumn1 = styled.div`
     display:flex;
     flex-direction:column;
     
-    flex:1;
-    
+    flex:;
     
 `;
 export const Row1 = styled.div`
@@ -74,7 +78,7 @@ export const InfoColumn2 = styled.div`
     
     align-self:stretch
     justify-content:center;
-    flex:1;
+    flex:;
     
 
 
@@ -149,30 +153,24 @@ export const SubDescription = styled.p`
     
 `;
 
-export const Img = styled.img`
+export const ImgWrap = styled.div`
+    display:flex;
+    margin-right: auto;
+    margin-left: auto;
     
-    margin:0;
-    padding-right: 0px;
 `;
 
-
-
 export const ImgA = styled.img`
-    align-self: center;
-    widtht:auto;
-    height:auto;
+    
+    width:100%;
+    justify-content:center;
     margin:0;
     padding-right: 0px;
 
-    @media screen (max-width: 530px) {
-        width:auto;
-    }
-    @media screen (max-width: 720px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    
+    // @media screen and (max-width = 560px) {
+    //     width:auto;
+    //     height:auto;
+    //     align-content:center;
+    // }
 `;
 

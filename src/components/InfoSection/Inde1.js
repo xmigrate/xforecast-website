@@ -13,7 +13,7 @@ import {
     
     Heading,
     Subtitle,
-
+    ImgWrap,
     Img,
     TopLine,
     ContentHeading,
@@ -76,9 +76,9 @@ import {
             <InfoRo>
               <Heading>{headline3}</Heading>
             
-            
+                <ImgWrap>
                     <Img src={img1} alt={alt1}/>
-                    
+                    </ImgWrap>
                     <ContentHeading>{name1}</ContentHeading>
                     <ContentDescription>{post}</ContentDescription>
             </InfoRo>
