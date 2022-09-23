@@ -3,13 +3,15 @@ import styled from 'styled-components';
 
 
 export const InfoContainer = styled.div`
-    display: flex;
-    width:100%
-    margin:80px;
-    flex-direction: column;
+    
+    
+    margin20px;
+    
     background:#fff;
     align-items:left;
     text-align:left;
+    
+    
     `;
 
     export const InfoRow1 = styled.div`
@@ -28,44 +30,51 @@ export const InfoContainer = styled.div`
     
     display: flex;
     flex-direction: row;
-    align-items:center;
+    
+    
+    
 `;
 
 export const InfoColumn1 = styled.div`
     display:flex;
     flex-direction:column;
-    align-items:flex-start;
+    
+    flex:1;
+    
     
 `;
 export const Row1 = styled.div`
   display: flex;
   flex-direction:row;
-  align-items:flex-start;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+  
+
+
 `;
 
 export const Column1 = styled.div`
     text-align: center;
     display: flex;
     flex-direction:column;
-
+    align-items:center;
+    
+    
+    
     
 `;
 
-export const Column2 = styled.div`
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    
-    
-`
+
 
 export const InfoColumn2 = styled.div`
-    margin-top: 5px;
+    
     display:flex;
-    flex-direction:column;
-    padding: 0 px;
-    align-items:flex-start;
-    text-align: center;
+    
+    
+    align-self:stretch
+    justify-content:center;
+    flex:1;
     
 
 
@@ -73,7 +82,7 @@ export const InfoColumn2 = styled.div`
 `;
 
 export const TopHeader = styled.h3`
-    font-weight: 600;
+    
     font-size: 16px;
     font-family: 'Inter';
     line-height: 24px;
@@ -108,66 +117,62 @@ export const ColHeader = styled.h4`
     font-weight: 600;
     font-size: 60px;
     font-family: 'Inter';
-    line-height: 72px;
+    
     text-align:center;
     letter-spacing: -0.0.em;
-    color: #0082FF
+    color: #0082FF;
+    max-width:264px
 `
 
 export const SubHeading = styled.h2`
     align-items: center;
     font-size: 20px;
-    line-height: 30px;
+    
     font-weight: 500;
     font-family: 'Inter';
     font-style: normal;
-    color:010606;
+    color:#010606;
+    max-width:264px;
 `;
 
 export const SubDescription = styled.p`
     align-items:center;
-    width:700px;
+    max-width:264px;
     font-family: 'Inter';
     margin-right: auto;
     margin-left: auto;
     font-size: 16px;
-    line-height:24px;
+    
     font-weight:400;
     color:#667085;
 
-    @media screen and (max-width:1130px) {
-        width:auto;
-    }
+    
 `;
 
 export const Img = styled.img`
-    width: 100%;
+    
     margin:0;
     padding-right: 0px;
 `;
 
-export const ImgWrap = styled.div`
-    width: 15%;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    height: 100%;
-`;
+
 
 export const ImgA = styled.img`
-    align-items: center;
-    width: 100%;
+    align-self: center;
+    widtht:auto;
+    height:auto;
     margin:0;
     padding-right: 0px;
 
-    @media screen and (max-width:1080px) {
+    @media screen (max-width: 530px) {
         width:auto;
     }
-    @media screen and (max-width:920px) {
+    @media screen (max-width: 720px) {
         width:auto;
     }
-    @media screen and (max-width:730px) {
+    @media screen (max-width: 1080px) {
         width:auto;
     }
+    
 `;
 

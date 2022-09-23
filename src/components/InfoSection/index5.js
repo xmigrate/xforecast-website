@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSlack, FaYoutube, FaSpotify, FaGithub } from "react-icons/fa";
 import { IconContext } from 'react-icons';
-import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1 } from './FooterElements';
+import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1, Wrap } from './FooterElements';
 import { BtnWrap } from './InfoElements';
 
 export const FooterSection = ({heading, description, button1, button2, heading1, description1, description2}) => {
@@ -13,12 +13,12 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
         <Heading>{heading}</Heading>
         <Description>{description}</Description>
         
-        <InfoRow1 primary={true}>
+        
         <BtnWrap>
         <Button primary={true} dark={true}>{button1}</Button>
         <Button>{button2}</Button>
         </BtnWrap>
-        </InfoRow1>
+        
         </InfoRow1>
       </InfoContainer>
 

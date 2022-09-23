@@ -2,9 +2,8 @@ import styled from 'styled-components';
 
 
 export const InfoContainer = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+    
+    
     background:#fff;
     align-items: center;
     text-align: center;
@@ -15,10 +14,9 @@ export const InfoWrapper = styled.div`
     background: #E4F4FF;
     z-index: 1;
     text-align: center:
-    width:100%;
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    
+    
+    
     padding:0;
     justify-content: center;
 `;
@@ -28,32 +26,33 @@ export const InfoRow = styled.div`
     
     align-items: center;
     
-    display: grid;
+    display:flex ;
+    flex-direction:column;
 
     }
 `;
 
+export const InfoRo = styled.div`
+    background:{({Primary}) => (Primary ? '#fff' : '#E4F4FF')};
+    
+    align-items: center;
+    
+    display: flex;
+    flex-direction:column;
+
+    }
+`;
 
 export const InfoRow1 = styled.div`
     
-    width: 80%;
+    // width: 80%;
     align-items:center;
     background: #fff;
-    display: grid;
-    grid-width:2fr;
-    grid-template-columns: 2fr 2fr 2fr;
-    grid-gap: 20px;
-    padding: 0 200px;
+    display: flex;
+    flex-direction:row;
+    flex:1;
+
     
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
-    @media screen (max-width: 720px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
 `;
 
 export const Column1 = styled.div`
@@ -61,7 +60,9 @@ export const Column1 = styled.div`
     margin-bottom: 10px;
     padding: 0 px;
     align-items: center;
-    grid-area: 2fr;
+    flex:1;
+    flex-direction:column;
+    
 
 `;
 
@@ -70,7 +71,9 @@ export const Column2 = styled.div`
     
     padding: 0 px;
     align-items: center;
-    grid-area: 2fr;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
     
 `;
 
@@ -78,7 +81,7 @@ export const Column3 = styled.div`
     margin-bottom: 10px;
 
     align-items: center;
-    grid-area: 2fr;
+    
     
 `;
 
@@ -97,6 +100,7 @@ export const TopLine = styled.p`
     letter-spacing: 1.4px;
     margin-bottom: 0;
     font-family: 'Inter';
+    text-align:center
 `;
 
 export const Heading = styled.h1`
@@ -127,7 +131,7 @@ export const Subtitle = styled.p`
 
 export const BtnWrap = styled.div`
     display: flex;
-    margin: 10px;
+    
     justify-content: center;
     
 `;
@@ -140,23 +144,16 @@ export const ImgWrap = styled.div`
 `;
 
 export const Img = styled.img`
-    width: 100%;
+    width:auto;
+    height:auto;
     margin:0;
     padding-right: 0px;
 
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
-    @media screen (max-width: 720px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
+ 
 `;
 
 export const ContentHeading = styled.h2`
-    align-items: center;
+    text-align: center;
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -166,7 +163,7 @@ export const ContentHeading = styled.h2`
 `;
 
 export const ContentDescription = styled.p`
-    align-items:center;
+    text-align:center;
     margin-right: auto;
     margin-left: auto;
     max-width:300px;
@@ -180,17 +177,16 @@ export const ContentDescription = styled.p`
 export const Circle = styled.div`
     width: 48px;
     height: 48px;
+    margin-right: auto;
+    margin-left: auto;
     background: #C6E7FD;
     border: 8px solid #E4F4FF;
     border-radius:28px;
     align-items:center;
+    position:relative;
+    vertical-align:middle;
+    color:#0082FF;
+    size:2em;
+    align-content: center;
 `;
 
-export const FaRegEnvelope = styled.div` 
-    width: 48px;
-    height: 48px;
-    background: #C6E7FD;
-    border: 8px solid #E4F4FF;
-    border-radius:28px;
-    align-items:center;
-`;

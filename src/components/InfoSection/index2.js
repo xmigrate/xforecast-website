@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { FaRegPlayCircle, FaRegEnvelope, FaSmile, FaArrowRight } from 'react-icons/fa';
-import { FiZap, FiCommand, FiMessageCircle } from "react-icons/fi";
+import {  FaRegEnvelope, FaArrowRight } from 'react-icons/fa';
+import { FiZap,  } from "react-icons/fi";
 import { RiBarChartFill } from "react-icons/ri";
+import { IconContext } from 'react-icons';
 import { 
     InfoContainer,
     InfoRow,
@@ -48,28 +49,28 @@ const InfoSection2 = ({line1,
                     
                 </InfoRow>
         </InfoContainer>
-        <InfoContainer>
+        
             <InfoRow1>
-                <Column1>
-                  <FaRegEnvelope />
+                <Column1><Circle>
+                  <FaRegEnvelope /></Circle>
                   <ContentHeading>{contentheading1}</ContentHeading>
                   <ContentDescription>{contentdescription1}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>
                 </Column1>
-                <Column2>
-                <FiZap />
+                <Column1><Circle>
+                <FiZap /></Circle>
                   <ContentHeading>{contentheading2}</ContentHeading>
                   <ContentDescription>{contentdescription2}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>
-                </Column2>
-                <Column3><Circle>
+                </Column1>
+                <Column1><Circle>
                 <RiBarChartFill /></Circle>
                   <ContentHeading>{contentheading3}</ContentHeading>
                   <ContentDescription>{contentdescription3}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>
-                </Column3>
+                </Column1>
               </InfoRow1>
-        </InfoContainer>
+    
     </>
   )
 }

@@ -21,11 +21,12 @@ export const InfoContainer = styled.div`
 
 export const InfoRow1 = styled.div`
     background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
-    width:100%;
+    justify-content:center;
+    gap:20px;
     align-items: center;
     margin-right: auto;
     margin-left: auto;
-    display: grid;
+    
 
     @media screen (max-width: 730px) {
         width:auto;
@@ -45,6 +46,9 @@ export const InfoRow = styled.div`
     margin-right: auto;
     margin-left: auto;
     display: flex;
+    flex-direction:row;
+    gap:15px;
+    justify-content:center;
 
     @media screen (max-width: 730px) {
         width:auto;
@@ -86,8 +90,10 @@ export const Description = styled.p`
     line-height:14px;
     color:#667085;
 `;
-export const BtnWrap = styled.div`
-    width:10%;
+export const Wrap = styled.div`
+    display:flex;
+    flex-direction:row;
+    gap:8px;
     align-items:center;
     justify-content: center;
     
@@ -96,7 +102,7 @@ export const BtnWrap = styled.div`
 export const Button = styled(Link)`
     
     background: ${({ primary }) => (primary ? '#ffffff' : '#0082FF')};
-    padding:10px 18px;
+    padding:10px;
     color: ${({ dark }) => (dark ? '#344054' : '#ffffff')};
     font-size:16px;
     font-family: 'Inter';
@@ -104,11 +110,10 @@ export const Button = styled(Link)`
     border: 1px;
 
     
+    margin: 10px;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
-    width: 130px;
-    margin-right: auto;
-    margin-left: auto;
+    border-width: 20px;
     cursor: pointer;
     
     justify-content: center;

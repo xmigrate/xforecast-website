@@ -31,7 +31,7 @@ const InfoSection4 = ({topline, heading, description, colheading1, colheading2, 
         </InfoContainer>
 
         <InfoContainer>
-            <InfoRow>
+            <InfoRow >
                 <InfoColumn1>
                     <Row1>
                         <Column1>
@@ -40,11 +40,11 @@ const InfoSection4 = ({topline, heading, description, colheading1, colheading2, 
                             <SubDescription>{subdes1}</SubDescription>
                         </Column1>
                             
-                        <Column2>
+                        <Column1>
                             <ColHeader>{colheading2}</ColHeader>
                             <SubHeading>{subheading2}</SubHeading>
                             <SubDescription>{subdes2}</SubDescription>
-                        </Column2>
+                        </Column1>
                     </Row1>
 
                     <Row1>
@@ -54,22 +54,26 @@ const InfoSection4 = ({topline, heading, description, colheading1, colheading2, 
                             <SubDescription>{subdes3}</SubDescription>
                         </Column1>
 
-                        <Column2>
+                        <Column1>
                             <ColHeader>{colheading4}</ColHeader>
                             <SubHeading>{subheading4}</SubHeading>
                             <SubDescription>{subdes4}</SubDescription>
-                        </Column2>
+                        </Column1>
 
                     </Row1>
                 </InfoColumn1>
 
                 <InfoColumn2>
+                {/* <ColHeader>{colheading4}</ColHeader>
+                            <SubHeading>{subheading4}</SubHeading>
+                            <SubDescription>{subdes4}</SubDescription> */}
                     
-                    {/* <ImgA src={img} alt={alt} /> */}
+                     <ImgA src={img} alt={alt} />  
                     
                 </InfoColumn2>
             </InfoRow>
         </InfoContainer>
+        
     
     </>
   )

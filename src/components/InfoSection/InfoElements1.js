@@ -28,57 +28,43 @@ export const Button = styled(Link)`
 
 
 export const InfoContainer = styled.div`
-    display: flex;
-    margin-left:10%;
-    flex-direction: column;
+
+    margin:4%;
+    
     background:#fff;
     align-items: center;
     text-align: center;
 
-    @media screen (max-width: 730px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+   
 
     `;
 
-    export const InfoRow1 = styled.div`
+  
+export const InfoRow1 = styled.div`
     background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
-    
-    align-items: center;
-    
-    display: grid;
 
-    }
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction:column
+
+    
 `;
 
 
     export const InfoRow = styled.div`
     
-    width: 100%;
-    max-width:1100px;
-    align-items:flex-start;
-    background: #fff;
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr ;
-    grid-gap:20px;
-    padding: 0 200px;
     
-    @media screen (max-width: 730px) {
-        width:auto;
-    }
-    @media screen (max-width: 1080px) {
-        width:auto;
-    }
-    @media screen (max-width: 920px) {
-        width:auto;
-    }
+    align-items:center;
+    
+    display: flex;
+    flex-direction: row;
+    
+    gap:20px;
+    padding: 0px;
+    
+    
 `;
 
 export const InfoColumn1 = styled.div`
@@ -86,17 +72,18 @@ export const InfoColumn1 = styled.div`
     padding: 0 px;
     text-align: left;
     align-items:flex-start;
-    grid-area: 1fr;
     
+    flex:2;
     
 `;
 
 export const InfoColumn2 = styled.div`
-    margin-top: 15px;
+
     padding: 0 px;
-    align-items:flex-start;
+    align-self:center;
     text-align: left;
-    grid-area: 1fr;
+    
+    flex:1;
     
 `;
 
@@ -138,20 +125,19 @@ export const SubHeading = styled.h2`
 `;
 
 export const SubDescription = styled.p`
-    align-items:center;
+    align-items:left;
+    text-align:left;
     font-family: 'Inter';
-    width:700px;
-    margin-right: auto;
-    margin-left: auto;
+    
+    // margin-right: auto;
+    // margin-left: auto;
     font-size: 16px;
     line-height:24px;
     font-weight:400;
     color:#667085;
+    
 
-    @media screen and (max-width:1130px) {
-        width:auto;
-    }
-`;
+    `;
 
 export const Img = styled.img`
     width: 100%;
