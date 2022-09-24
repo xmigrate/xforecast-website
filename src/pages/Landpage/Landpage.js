@@ -80,7 +80,7 @@ export default class Landpage extends Component {
               >
                 <div className="btn bt-pr1 btn-outline-primary btn-md btn-main mr-1 px-4" >
 
-                  Start Migrate
+                  Start forecasting
                 </div>
               </a>
               <a
