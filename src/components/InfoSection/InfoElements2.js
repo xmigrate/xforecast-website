@@ -27,15 +27,15 @@ export const InfoContainer = styled.div`
 
 
     export const InfoRow = styled.div`
-    @media only screen (min-width = 530px) { 
-    display: flex;
-    flex-direction:column;
+    
+    display:grid;
+    // flex-direction: row;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:16px;
+    
+    @media screen and (max-width:720px) {
+        grid-template-columns:1fr;
     }
-    //  @media screen (max-width = 530px) { 
-                display:flex;
-    //         flex-direction:column;
-    //         align-content:center;
-    //      }
     
     
 `;
@@ -44,7 +44,7 @@ export const InfoColumn1 = styled.div`
     display:flex;
     flex-direction:column;
     
-    flex:;
+    flex:1;
     
 `;
 export const Row1 = styled.div`
@@ -78,7 +78,7 @@ export const InfoColumn2 = styled.div`
     
     align-self:stretch
     justify-content:center;
-    flex:;
+    flex:1;
     
 
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaSlack, FaYoutube, FaSpotify, FaGithub } from "react-icons/fa";
 import { IconContext } from 'react-icons';
-import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1, Wrap } from './FooterElements';
+import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1, Container, Row, Column, Col } from './FooterElements';
 import { BtnWrap } from './InfoElements';
 
 export const FooterSection = ({heading, description, button1, button2, heading1, description1, description2}) => {
@@ -37,6 +37,19 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
         <Description>{description2}</Description>
         </InfoRow1>
       </InfoContainer>
+
+
+<Container>
+  <Row>
+    <Column>
+      <Col to='features'>Features </Col>
+      <Col to='features'>Features </Col>
+      <Col to='features'>Features </Col>
+    </Column>
+    <Column >Xforecast</Column>
+    <Column>© 2020, xmigrate labs Inc.</Column>
+  </Row>
+</Container>
 
     </>
   )
