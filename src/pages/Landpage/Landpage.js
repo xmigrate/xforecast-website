@@ -50,13 +50,13 @@ export default class Landpage extends Component {
             <Form id="basic-nav-dropdown" className="d-flex">
               <ul className="navbar-nav">
                 <li className="limargin mt-1">
-                  <a href="https://docs.xmigrate.cloud/en/latest/" target="_blank">Documentation</a>
+                  <a href="https://docs.xforecast.cloud/en/latest/" target="_blank">Documentation</a>
                 </li>
                 <li className="limargin mt-1">
                   <a href="https://medium.com/xmigrateoss" target="_blank">Blog</a>
                 </li>
               </ul>
-              <a href="https://github.com/iamvishnuks/xmigrate/discussions" target="_blank">
+              <a href="https://github.com/xmigrate/xforecast/discussions" target="_blank">
                 <Button variant="secondary Gitbtn limargin ">
                   Get Started on Github <span className="ml-2"><FaGithub size={22} /></span>
                 </Button>
@@ -68,15 +68,14 @@ export default class Landpage extends Component {
           <Row className="justify-content-md-center">
             <Col md="auto" className="banner pt-5">
               <h1 className="banner-txt">
-                An Open-source Cross Cloud Migration Tool
+                An Open-source AIOPs tool for your observability stack
               </h1>
               <p className="lead">
-                Xmigrate(pronounced as cross-migrate) is an opensource tool for
-                migrating your VM's <br />
-                from anywhere to cloud and cloud to anywhere seamlessly.
+              Xforecast, a light weight realtime plug and play tool for predictive analytics <br />
+                
               </p>
               <a
-                href="https://github.com/iamvishnuks/xmigrate"
+                href="https://github.com/xmigrate/xforecast"
                 target="_blank"
               >
                 <div className="btn bt-pr1 btn-outline-primary btn-md btn-main mr-1 px-4" >
@@ -85,7 +84,7 @@ export default class Landpage extends Component {
                 </div>
               </a>
               <a
-                href="https://youtu.be/FISJaoUIiOM"
+                href=""
                 target="_blank"
               >
                 <div className="btn bt-pr2 btn-outline-primary btn-md px-4" >
@@ -106,14 +105,11 @@ export default class Landpage extends Component {
           <Row className="justify-content-md-center">
             <Col md="auto" className="banner text-mid-1">
               <h1 className="banner-txt2">
-                Xmigrate supports all 3 major public cloud providers
+                Xforecast can simply fit into your existing observabilty infrastructure.
               </h1>
               <p className="lead">
-                We are rigourosly testing and rolling out updates to our
-                Xmigrate tool every week. Xmigrate team invite everyone to
-                <br /> give this tool a try and give feedback. We are inviting
-                each one of your contribution to build this tool to a stable
-                version.
+                Now we support InfluxDB and Prometheus as source/target datasources. Datasource compatibility is the <br />
+                only pre-requisite to run xforecast.
               </p>
             </Col>
           </Row>
@@ -154,8 +150,8 @@ export default class Landpage extends Component {
                     </span>
                   </h3>
                   <p className="lead">
-                    The following are the features and advantages of
-                    Xmigrate tool now and will be rolled out in future.
+                    The following are the features which xforecast supports
+                    now and will be supported in future.
                   </p>
                 </Col>
               </Row>
@@ -168,10 +164,9 @@ export default class Landpage extends Component {
                     <div className="clicon p-3">
                       <FaLock size={50} />
                     </div>
-                    <Card.Title className="CardTit">Data Privacy</Card.Title>
+                    <Card.Title className="CardTit">Data forecasting</Card.Title>
                     <Card.Text className="lead">
-                      Xmigrate tool will be deployed in your environment and
-                      no data is send to any third party for any purpose
+                      This is the core functionality of xforecast. Make predictions on any given metric.
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -183,10 +178,9 @@ export default class Landpage extends Component {
                     <div className=" clicon p-3">
                       <FaLinux size={50} />
                     </div>
-                    <Card.Title className="CardTit">Migration of Linux VM's</Card.Title>
+                    <Card.Title className="CardTit">Hyperparameter tuning</Card.Title>
                     <Card.Text className="lead">
-                      Xmigrate has the capability to migrate Linux VM's from
-                      onprem to cloud or cloud to cloud
+                      Hyperparameters can be tuned per metric which is configured for predictions
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -199,10 +193,10 @@ export default class Landpage extends Component {
                     <div className="clicon p-3">
                       <FaPaperPlane size={50} />
                     </div>
-                    <Card.Title className="CardTit">Agentless Migration</Card.Title>
+                    <Card.Title className="CardTit">Predict multiple metrics</Card.Title>
                     <Card.Text className="lead">
-                      Xmigrate doesn't need any agents to be installed on
-                      the VM's which needs to be migrated
+                      Xforecast configuration file can be updated
+                      to support multiple metrics prediction at the same time
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -215,10 +209,10 @@ export default class Landpage extends Component {
                     <div className="clicon p-3">
                       <FaFingerprint size={50} />
                     </div>
-                    <Card.Title className="CardTit">Environment Footprinting</Card.Title>
+                    <Card.Title className="CardTit">Declarative metrics</Card.Title>
                     <Card.Text className="lead" >
-                      Efficiently discover the environment of the hosts
-                      which needs to be migrated
+                      Metrics config is decalarative and should be defined
+                      in config.yml file
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -232,10 +226,10 @@ export default class Landpage extends Component {
                     <div className="clicon p-3">
                       <FaMapMarkedAlt size={50} />
                     </div>
-                    <Card.Title className="CardTit">Blueprint Dashboard</Card.Title>
+                    <Card.Title className="CardTit">Run anywhere</Card.Title>
                     <Card.Text className="lead">
-                      Design the Cloud environment easily from Blueprint
-                      console with footprint data
+                      Xforecast can be run as a container in a VM
+                      or in any kubernetes environment
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -248,10 +242,11 @@ export default class Landpage extends Component {
                     <div className="clicon p-3">
                       <FaLayerGroup size={50} />
                     </div>
-                    <Card.Title className="CardTit">Manage environments</Card.Title>
+                    <Card.Title className="CardTit">Community support</Card.Title>
                     <Card.Text className="lead">
-                      Create and manage multiple environments by creating
-                      multiple projects in Xmigrate
+                      Quick support from the active
+                      community. Post any questions or issues
+                      in github discussions
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -271,8 +266,9 @@ export default class Landpage extends Component {
                       </Row>
                       
                     </div>
-                    <Card.Title className="CardTit">Interrupt Handling</Card.Title>
-                    <Card.Text className="lead">Capability to resume your failed migration from last successful checkpoints</Card.Text>
+                    <Card.Title className="CardTit">Web console</Card.Title>
+                    <Card.Text className="lead">Configure, manage and monitor xforecast 
+                      from web dashboard</Card.Text>
                   </Card.Body>
                 </Card>
 
@@ -292,10 +288,10 @@ export default class Landpage extends Component {
 
 
                     </div>
-                    <Card.Title className="CardTit">Bandwidth Control</Card.Title>
+                    <Card.Title className="CardTit">Multi-dimensional data forecasting</Card.Title>
                     <Card.Text className="lead">
-                      Control bandwidth usage while you are migrating your
-                      servers
+                      Xforecast support predictions on multi-dimensional
+                      data and this makes the predictions more accurate
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -313,7 +309,7 @@ export default class Landpage extends Component {
                 </h1>
                 <p className="lead">
                   Join the conversation and help shape the evolution of
-                  Xmigrate, Here are fews ways to get started
+                  Xforecast, Here are fews ways to get started
                 </p>
               </Col>
             </Row>
@@ -321,7 +317,7 @@ export default class Landpage extends Component {
               <Col md={{ span: 4, offset: 4 }}>
                 <Row>
                   <Col xs="3" className=" iconCommunity ">
-                    <a href="https://twitter.com/xmigrateOSS" target="_blank">
+                    <a href="https://twitter.com/xforecastoss" target="_blank">
                       <FaTwitter size={60} />
                     </a>
                   </Col>
@@ -335,7 +331,7 @@ export default class Landpage extends Component {
                   </Col>
                   <Col xs="3" className=" iconCommunity">
                     <a
-                      href="https://github.com/iamvishnuks/xmigrate/discussions"
+                      href="https://github.com/xmigrate/xforecast/discussions"
                       target="_blank"
                     >
                       <FaGithub size={60} />
@@ -356,7 +352,7 @@ export default class Landpage extends Component {
               <Col md="12" className="banner pt-3">
                 <p className="lead">
                   You can also join us every other week for our community
-                  meeting call to dicuss <strong>xmigrate</strong>
+                  meeting call to dicuss <strong>xforecast</strong>
                 </p>
               </Col>
             </Row>
@@ -369,7 +365,7 @@ export default class Landpage extends Component {
                   <ul className="footer-list lead pt-4 mt-1">
                   <li> <a href="#Home">Home</a></li>
                    <li> <a href="#feature">Features</a></li>
-                   <li> <a href="https://github.com/xmigrate/xmigrate/discussions/"  target="_blank">Community</a></li>
+                   <li> <a href="https://github.com/xmigrate/xforecast/discussions"  target="_blank">Community</a></li>
                   </ul>
                 </Col>
                 <Col >
@@ -379,12 +375,12 @@ export default class Landpage extends Component {
                       width="150"
                       height="40"
                       className="d-inline-block align-top"
-                      alt="Xmigrate logo"
+                      alt="Xforecast logo"
                     />
                   </p>
                 </Col>
                 <Col xs={{ order: "last" }} >
-                  <p className="pt-4 mt-1 lead"> &#169; 2022@xmigrate.cloud</p>
+                  <p className="pt-4 mt-1 lead"> &#169; 2022@Xmigrate consultancy services private ltd</p>
                 </Col>
               </Row>
             </Col>
