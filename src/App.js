@@ -1,15 +1,22 @@
-
 import React from 'react';
-
 import './App.css';
+import Landpage from './pages/Landpage/Landpage'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-import Home from './pages';
-import {BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (
-    <Router>
-      <Home />
-    </Router>
+
+    <div className="App h-100">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Landpage/>} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

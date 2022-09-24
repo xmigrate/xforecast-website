@@ -1,0 +1,175 @@
+.Landpage {
+  h1,
+  h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+  }
+  h1,
+  h5 {
+    font-weight: normal;
+  }
+  .navbar-brand {
+    margin-left: 3rem;
+  }
+  .limargin{
+    margin-right: 3rem;
+  }
+  .NavCl {
+    background-color: white;
+  }
+  .CardTit {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+  }
+  .navbar-nav > li > a {
+    color: #666666;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  .banner {
+    text-align: center;
+  }
+  .btn {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .bt-pr1 {
+    color: white;
+    background-color: #0082ff;
+  }
+  .bt-pr1:hover {
+    color: #0082ff;
+    background-color: white;
+  }
+  .bt-pr2 {
+    color: #0082ff;
+    background-color: white;
+  }
+  .bt-pr2:hover {
+    color: white;
+    background-color: #0082ff;
+  }
+  .Gitbtn {
+    background-color: #3e3f42;
+    border: 8px;
+    border-color: white;
+    box-shadow: 0px;
+    box-shadow: none;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .Gitbtn:hover,.Gitbtn:active,.Gitbtn:focus {
+    border-color: white;
+    box-shadow: none;
+  }
+
+  .banner-txt {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+  }
+  .lead {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #999;
+  }
+  .boxshad {
+    box-shadow: 20px 20px 50px #dfdede;
+  }
+  .card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+  }
+  .banner-txt2 {
+    font-family: Ubuntu;
+    font-weight: lighter;
+    font-size: 2.3rem;
+  }
+  .HomeColo {
+    background-color: #f9f9f9;
+  }
+
+  .footer-brand {
+    font-size: 1.4rem;
+    color: #0082ff !important;
+  }
+
+  ul.footer-list > li {
+    display: inline;
+    margin: .5rem;
+  }
+  .iconcard {
+    text-align: center;
+  }
+
+  .footer {
+    border-top: 0.3px solid lightgray;
+  }
+  .iconCommunity a {
+    color: grey;
+  }
+  .iconCommunity a:hover {
+    color: #0082ff;
+    cursor: pointer;
+  }
+  .clicon {
+    color: #0082ff;
+  }
+  .premium-change {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #0082ff;
+  }
+  .btn-premium {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 100px;
+  }
+  .premiumCardBody{
+    padding: .75rem;
+  }
+  .text-mid-1{
+    padding-top: 5rem;
+  }
+  .icons-all{
+    padding-bottom: 5rem;
+  }
+  .premiumcol{
+    text-align: end;
+  }
+  .cardFeatures{
+    border: 0px solid rgba(0,0,0,.125);
+  }
+  .footer-list a{
+    text-decoration: none;
+    color: #999;
+    list-style: none;
+  }
+
+  .footer-list a:hover{
+    color: #0082ff;
+  }
+
+  @media (max-width: 991px){
+  #basic-nav-dropdown {
+    display: inline !important ;
+  }
+  .navbar-brand {
+    margin-left: 2px;
+  }
+  .img-fluid{
+    margin-top: 1rem;
+  }
+  .limargin{
+    margin-right: 0px;
+  }
+}
+}
