@@ -39,7 +39,7 @@ export default class Landpage extends Component {
               width="150"
               height="40"
               className="d-inline-block align-top"
-              alt="xmigrate logo"
+              alt="xforecast logo"
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -144,7 +144,7 @@ export default class Landpage extends Component {
               <Row className="justify-content-md-center">
                 <Col md="auto" className="banner pt-5">
                   <h3 className="banner-txt2">
-                    Cross-Migrate using Xmigrate{" "}
+                    AIOPs with Xforecast{" "}
                     <span role="img" aria-label="Happy">
                       😀
                     </span>
