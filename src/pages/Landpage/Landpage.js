@@ -35,9 +35,9 @@ export default class Landpage extends Component {
         <Navbar expand="lg" className="sticky-top NavCl">
           <Navbar.Brand className="navbar-brand col-xs-2">
             <img
-              src="Assets/images/logoSm.png"
-              width="150"
-              height="40"
+              src="Assets/images/xforecast.jpg"
+              width="122"
+              height="22"
               className="d-inline-block align-top"
               alt="xforecast logo"
             />
@@ -98,7 +98,7 @@ export default class Landpage extends Component {
           <Row className="justify-content-md-center">
             <Col md="8" className="banner pt-5">
               <div className="boxshad">
-                <Image src="Assets/images/Screen2.gif" fluid />
+                <Image src="Assets/images/influx.gif" fluid />
               </div>
             </Col>
           </Row>
@@ -113,24 +113,18 @@ export default class Landpage extends Component {
               </p>
             </Col>
           </Row>
-          <Row className="justify-content-md-center mt-4 icons-all">
-            <Col md="6" className="banner pb-3 mb-5">
-              <Row>
-                <Col md="4">
+          <Row className="justify-content-md-center mt-4">
+            <Col md="5" className="banner pb-3 mb-5">
+              <Row className="justify-content-md-center ">
+                <Col md="5">
                   <Image
-                    src="Assets/images/Cloud.png"
+                    src="Assets/images/Influxdb_logo.png"
                     fluid
                   />
                 </Col>
-                <Col md="4">
+                <Col md="2">
                   <Image
-                    src="Assets/images/aws.png"
-                    fluid
-                  />
-                </Col>
-                <Col md="4">
-                  <Image
-                    src="Assets/images/Azure.png"
+                    src="Assets/images/Prometheus_software_logo.png"
                     fluid
                   />
                 </Col>
@@ -371,9 +365,9 @@ export default class Landpage extends Component {
                 <Col >
                   <p className="footer-brand pt-3">
                     <img
-                      src="Assets/images/logoSm.png"
-                      width="150"
-                      height="40"
+                      src="Assets/images/xforecast.png"
+                      width="120"
+                      height="20"
                       className="d-inline-block align-top"
                       alt="Xforecast logo"
                     />
