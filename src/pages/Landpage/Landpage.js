@@ -10,14 +10,18 @@ import {
   Button,
 } from "react-bootstrap";
 import {
+  FaChartLine,
+  FaRegUser,
+  FaCode,
+  FaInfo,
+  FaCog,
+  FaTools,
+  FaPlay,
+  FaAlignCenter,
   FaGithub,
   FaYoutube,
   FaTwitter,
   FaSlackHash,
-  FaLock,
-  FaLinux,
-  FaFingerprint,
-  FaPaperPlane,
   FaMapMarkedAlt,
   FaLayerGroup,
   FaStepForward,
@@ -156,7 +160,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className="clicon p-3">
-                      <FaLock size={50} />
+                      <FaChartLine size={50} />
                     </div>
                     <Card.Title className="CardTit">Data forecasting</Card.Title>
                     <Card.Text className="lead">
@@ -170,7 +174,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className=" clicon p-3">
-                      <FaLinux size={50} />
+                      <FaTools size={50} />
                     </div>
                     <Card.Title className="CardTit">Hyperparameter tuning</Card.Title>
                     <Card.Text className="lead">
@@ -185,7 +189,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className="clicon p-3">
-                      <FaPaperPlane size={50} />
+                      <FaInfo size={50} />
                     </div>
                     <Card.Title className="CardTit">Predict multiple metrics</Card.Title>
                     <Card.Text className="lead">
@@ -201,7 +205,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className="clicon p-3">
-                      <FaFingerprint size={50} />
+                      <FaCog size={50} />
                     </div>
                     <Card.Title className="CardTit">Declarative metrics</Card.Title>
                     <Card.Text className="lead" >
@@ -218,7 +222,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className="clicon p-3">
-                      <FaMapMarkedAlt size={50} />
+                      <FaPlay size={50} />
                     </div>
                     <Card.Title className="CardTit">Run anywhere</Card.Title>
                     <Card.Text className="lead">
@@ -234,7 +238,7 @@ export default class Landpage extends Component {
                 >
                   <Card.Body className="iconcard">
                     <div className="clicon p-3">
-                      <FaLayerGroup size={50} />
+                      <FaRegUser size={50} />
                     </div>
                     <Card.Title className="CardTit">Community support</Card.Title>
                     <Card.Text className="lead">
@@ -256,7 +260,7 @@ export default class Landpage extends Component {
                     <div className="clicon p-2">
                       
                     <Row>
-                        <Col  md={{ span: 6, offset: 3 }}><FaStepForward size={50} /></Col>
+                        <Col  md={{ span: 6, offset: 3 }}><FaCode size={50} /></Col>
                       </Row>
                       
                     </div>
@@ -277,7 +281,7 @@ export default class Landpage extends Component {
                     <div className="clicon p-2">
                  
                       <Row>
-                        <Col md={{ span: 6, offset: 3 }}><FaSortAmountUp size={50} /></Col>
+                        <Col md={{ span: 6, offset: 3 }}><FaLayerGroup size={50} /></Col>
                       </Row>
 
 
