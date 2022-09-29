@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 import {
@@ -35,12 +36,22 @@ const Navbar = ({toggle}) => {
                     <NavLinks to='pricing'>Pricing</NavLinks>
                 </NavItem>
                 <NavBtn>
-                    <NavBtnLink to='github.com'>Get Started on Github <FaGithub /></NavBtnLink>
+                    <NavBtnLink to='github'>Get Started on Github <FaGithub /></NavBtnLink>
+                    <a href="https://google.com" target="_blank" rel="noreferrer">
+                    </a>
+           <Routes>
+              <Route path="/gitgub" element={<NavBtnLink />} />
+           </Routes>
                 </NavBtn>
+               
             </NavMenu>
             </NavbarContainer>  
        
         </Nav>
+
+        
+
+        
         </>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom'; 
 import { FaSlack, FaYoutube, FaSpotify, FaGithub } from "react-icons/fa";
 import { IconContext } from 'react-icons';
 import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1, Container, Row, Column, Col } from './FooterElements';
@@ -28,10 +29,18 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
         <Description>{description1}</Description>
         <IconContext.Provider value={{ color:"#89898D", size:"6em", display:"flex", justifyContent:"space-between"}}>
         <InfoRow>
-        < FaSlack to="" />
+          <a href="https://slack.com">
+        < FaSlack  />
+        </a>
+        <a href="https://youtube.com">
         <FaYoutube /> 
+        </a>
+        <a href="https://spotify.com">
         <FaSpotify />
+        </a>
+        <a href="https://github.com">
         <FaGithub />
+        </a>
         </InfoRow>
         </IconContext.Provider>
         <Description>{description2}</Description>
@@ -42,9 +51,9 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
 <Container>
   <Row>
     <Column>
+      <Col to='home'>Home </Col>
       <Col to='features'>Features </Col>
-      <Col to='features'>Features </Col>
-      <Col to='features'>Features </Col>
+      <Col to='community'>Community </Col>
     </Column>
     <Column >Xforecast</Column>
     <Column>© 2020, xmigrate labs Inc.</Column>

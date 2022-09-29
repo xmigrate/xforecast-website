@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 
+
 export const InfoContainer = styled.div`
     margin: 11%;
     background:#fff;
@@ -101,16 +102,20 @@ export const Button = styled(Link)`
 `;
 
 export const Container = styled.div`
-    margin:8px;
+    margin:8px 8px 8px 0px;
     width:100%;
-    height:30px;
+    height:auto;
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.1);
 `;
 
 export const Row = styled.div`
-    display:flex;
-    flex-direction:row;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    @media screen and (max-width:920px) {
+        grid-template-columns:1fr 1fr;
+    }
 
 `;
 
@@ -118,9 +123,14 @@ export const Column = styled.div`
     flex-direction:row;
     flex:1;
     text-align:center;
+    color:#0082FF;
+    justify-content:center;
+    gap:100px;
 `;
 
 export const Col = styled(Link)`
 color:#8A8A8E;
 font-family:'inter';
+cursor:pointer;
+gap: 100px;
 `;

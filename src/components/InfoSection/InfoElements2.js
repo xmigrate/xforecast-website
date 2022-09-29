@@ -6,7 +6,7 @@ export const InfoContainer = styled.div`
     
     
     margin20px;
-    
+    width:100%;
     background:#fff;
     align-items:left;
     text-align:left;

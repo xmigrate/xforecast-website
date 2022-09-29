@@ -44,8 +44,7 @@ export const InfoRow1 = styled.div`
     background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
 
     align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+    
     display: flex;
     flex-direction:column
 
@@ -71,7 +70,7 @@ export const InfoColumn1 = styled.div`
     margin-bottom: 10px;
     padding: 0 px;
     text-align: left;
-    align-items:flex-start;
+    align-items:center;
     
     flex:2;
     
@@ -92,8 +91,7 @@ export const Heading = styled.h1`
     font-family:Inter;
     text-align: center;
     align-items:center;
-    margin-right: auto;
-    margin-left: auto;
+    
     font-size: 48px;
     font-family: 'Inter';
     line-height: 1.1;

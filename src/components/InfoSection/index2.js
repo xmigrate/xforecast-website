@@ -37,7 +37,7 @@ const InfoSection2 = ({line1,
 }) => {
   return (
     <>
-        <InfoContainer>
+        <InfoContainer id="usecases">
             <InfoRow>
                 <TopLine>{line1}</TopLine>
                 <Heading>{heading}</Heading>

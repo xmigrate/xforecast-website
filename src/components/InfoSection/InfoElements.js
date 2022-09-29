@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
     
-    
+    width:100%;
     background:#fff;
     align-items: center;
     text-align: center;
@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     align-items: center;
     background: #E4F4FF;
-    z-index: 1;
+    width:100%;
     text-align: center:
     
     
@@ -145,7 +145,7 @@ export const ImgWrap = styled.div`
 
 export const Img = styled.img`
     
-    width:100%;
+    width:80%;
     margin:0;
     padding-right: 0px;
 
@@ -192,5 +192,6 @@ export const Circle = styled.div`
     color:#0082FF;
     size:2em;
     align-content: center;
+    justify-content:center;
 `;
 
