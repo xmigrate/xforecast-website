@@ -29,7 +29,7 @@ export const InfoContainer = styled.div`
     export const InfoRow = styled.div`
     
     display:grid;
-    // flex-direction: row;
+    
     grid-template-columns: 1fr 1fr;
     grid-gap:16px;
     

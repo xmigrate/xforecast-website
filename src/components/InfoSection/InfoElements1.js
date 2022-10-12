@@ -116,7 +116,7 @@ export const SubHeading = styled.h2`
     align-items: center;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 500;
+    
     font-family: 'Inter';
     font-style: normal;
     color:010606;
@@ -131,7 +131,7 @@ export const SubDescription = styled.p`
     // margin-left: auto;
     font-size: 16px;
     line-height:24px;
-    font-weight:400;
+    
     color:#667085;
     
 
