@@ -46,6 +46,7 @@ export const InfoRo = styled.div`
 export const InfoRow1 = styled.div`
     
     // width: 80%;
+    margin-top:10px;
     align-items:center;
     background: #fff;
     display: flex;
@@ -111,7 +112,7 @@ export const Heading = styled.h1`
     margin-left: auto;
     font-size: 48px;
     line-height: 1.1;
-    font-weight: 600;
+    
     color:010606;
     font-family: 'Inter';
 
@@ -160,7 +161,7 @@ export const ContentHeading = styled.h2`
     text-align: center;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 500;
+    
     font-family: 'Inter';
     font-style: normal;
     color:010606;
@@ -174,24 +175,22 @@ export const ContentDescription = styled.p`
     font-size: 16px;
     line-height:24px;
     font-family: 'Inter';
-    font-weight:400;
+    
     color:#667085;
 `;
 
 export const Circle = styled.div`
     width: 48px;
     height: 48px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     background: #C6E7FD;
     border: 8px solid #E4F4FF;
     border-radius:28px;
-    align-items:center;
-    position:relative;
-    vertical-align:middle;
-    color:#0082FF;
+    text-align: center;
+    padding-top: 8px;
+    
+    color:#0059FF;
     size:2em;
-    align-content: center;
-    justify-content:center;
+    
 `;
 

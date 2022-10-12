@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 
 export const InfoContainer = styled.div`
     margin: 11%;
+    
     background:#fff;
     align-items: center;
     text-align: center;
@@ -20,6 +21,7 @@ export const InfoRow1 = styled.div`
     align-items: center;
     margin-right: auto;
     margin-left: auto;
+    padding:20px;
     
 
     
@@ -102,16 +104,21 @@ export const Button = styled(Link)`
 `;
 
 export const Container = styled.div`
-    margin:8px 8px 8px 0px;
+    margin:11px;
+    align-items:center;
     width:100%;
     height:auto;
-    box-sizing: border-box;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding:12px;
+    border-style: solid;
+  border-width: 1px 0px 0px 0px;
+    color: rgba(0, 0, 0, 0.1);
 `;
 
 export const Row = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
+    align-content:center;
 
     @media screen and (max-width:920px) {
         grid-template-columns:1fr 1fr;

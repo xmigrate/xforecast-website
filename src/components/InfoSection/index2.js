@@ -53,19 +53,19 @@ const InfoSection2 = ({line1,
         
             <InfoRow1>
                 <Column1><Circle>
-                  <FaRegEnvelope /></Circle>
+                  <FaRegEnvelope size={'2em'}/></Circle>
                   <ContentHeading>{contentheading1}</ContentHeading>
                   <ContentDescription>{contentdescription1}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>
                 </Column1>
                 <Column1><Circle>
-                <FiZap /></Circle>
+                <FiZap size={'2em'}/></Circle>
                   <ContentHeading>{contentheading2}</ContentHeading>
                   <ContentDescription>{contentdescription2}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>
                 </Column1>
                 <Column1><Circle>
-                <RiBarChartFill /></Circle>
+                <RiBarChartFill size={'2em'}/></Circle>
                   <ContentHeading>{contentheading3}</ContentHeading>
                   <ContentDescription>{contentdescription3}</ContentDescription>
                   <TopLine>Learn More <FaArrowRight /></TopLine>

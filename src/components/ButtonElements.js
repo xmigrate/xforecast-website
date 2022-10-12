@@ -6,6 +6,7 @@ export const Button = styled(Link)`
     background: ${({ primary }) => (primary ? '#ffffff' : '#000000')};
     padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
     color: ${({ dark }) => (dark ? '#344054' : '#ffffff')};
+    font-family: 'Inter';
     font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
     outline: none;
     border: 1px;

@@ -79,9 +79,11 @@ color:#667085;
 display:flex;
 align-items: center;
 text-decoration: none;
+font-family: 'Inter';
 padding:0 1rem;
 height: 100%;
 cursor: pointer;
+
 
 &.active {
   border-bottom: 3px solid #01bf71;
@@ -102,6 +104,7 @@ background:#000;
 white-space: nowrap;
 padding: 10px 22px;
 color:#fff;
+font-family: 'Ubuntu', sans-serif;
 font-size: 16px;
 outline: none;
 border: none;

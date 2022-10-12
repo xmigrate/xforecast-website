@@ -29,7 +29,7 @@ export const Button = styled(Link)`
 
 export const InfoContainer = styled.div`
 
-    margin:4%;
+    margin:11%;
     
     background:#fff;
     align-items: center;
@@ -44,9 +44,9 @@ export const InfoRow1 = styled.div`
     background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
 
     align-items: center;
-    
+    padding:24px;
     display: flex;
-    flex-direction:column
+    flex-direction:column;
 
     
 `;
@@ -78,7 +78,7 @@ export const InfoColumn1 = styled.div`
 
 export const InfoColumn2 = styled.div`
 
-    padding: 0 px;
+    
     align-self:center;
     text-align: left;
     
@@ -168,3 +168,6 @@ export const ImgA = styled.img`
     // }
 `;
 
+export const Icon = styled.div`
+    // display:none;
+`

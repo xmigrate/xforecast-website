@@ -4,6 +4,7 @@ import { FaSlack, FaYoutube, FaSpotify, FaGithub } from "react-icons/fa";
 import { IconContext } from 'react-icons';
 import { InfoContainer, Heading, Description, Button, InfoRow, InfoRow1, Container, Row, Column, Col } from './FooterElements';
 import { BtnWrap } from './InfoElements';
+import img1 from '../../images/logo.png';
 
 export const FooterSection = ({heading, description, button1, button2, heading1, description1, description2}) => {
   return (
@@ -55,7 +56,7 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
       <Col to='features'>Features </Col>
       <Col to='community'>Community </Col>
     </Column>
-    <Column >Xforecast</Column>
+    <Column ><img src={img1} alt="" /></Column>
     <Column>© 2020, xmigrate labs Inc.</Column>
   </Row>
 </Container>

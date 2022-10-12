@@ -1,4 +1,5 @@
 import React from 'react';
+import img1 from '../../images/logo.png';
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
@@ -18,7 +19,7 @@ const Navbar = ({toggle}) => {
     <>
         <Nav>
           <NavbarContainer>
-            <NavLogo to='/'> Xforecast </NavLogo>
+            <img src={img1} alt="" />
             <MobileIcon onClick={toggle}>
                 <FaBars />
             </MobileIcon>
@@ -40,7 +41,7 @@ const Navbar = ({toggle}) => {
                     <a href="https://google.com" target="_blank" rel="noreferrer">
                     </a>
            <Routes>
-              <Route path="/gitgub" element={<NavBtnLink />} />
+              <Route path="gitgub" element={<NavBtnLink />} />
            </Routes>
                 </NavBtn>
                
