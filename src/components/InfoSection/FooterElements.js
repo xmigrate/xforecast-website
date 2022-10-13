@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 
 export const InfoContainer = styled.div`
-    margin: 11%;
+    margin: 6%;
     
     background:#fff;
     align-items: center;
@@ -29,13 +29,12 @@ export const InfoRow1 = styled.div`
 
 export const InfoRow = styled.div`
     background:${({ primary }) => (primary ? '#F9FAFB' : '#fff')};
-    margin: 20px;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
+    
+    
+    width:auto;
     display: flex;
     flex-direction:row;
-    gap:15px;
+    gap:50px;
     justify-content:center;
 
     
@@ -106,7 +105,7 @@ export const Button = styled(Link)`
 export const Container = styled.div`
     margin:11px;
     align-items:center;
-    width:100%;
+    width:auto;
     height:auto;
     padding:12px;
     border-style: solid;
@@ -130,9 +129,10 @@ export const Column = styled.div`
     flex-direction:row;
     flex:1;
     text-align:center;
-    color:#0082FF;
+    color:#8A8A8E;
+    font-family: 'Inter';
     justify-content:center;
-    gap:100px;
+    
 `;
 
 export const Col = styled(Link)`

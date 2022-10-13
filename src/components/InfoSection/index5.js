@@ -28,7 +28,7 @@ export const FooterSection = ({heading, description, button1, button2, heading1,
         <InfoRow1 >
         <Heading>{heading1}</Heading>
         <Description>{description1}</Description>
-        <IconContext.Provider value={{ color:"#89898D", size:"6em", display:"flex", justifyContent:"space-between"}}>
+        <IconContext.Provider value={{ color:"#89898D", size:"5em", }}>
         <InfoRow>
           <a href="https://slack.com">
         < FaSlack  />

@@ -29,7 +29,9 @@ export const Button = styled(Link)`
 
 export const InfoContainer = styled.div`
 
-    margin:11%;
+    margin-right:20%;
+    margin-left:20%;
+    margin-top:4%;
     
     background:#fff;
     align-items: center;
@@ -61,7 +63,10 @@ export const InfoRow1 = styled.div`
     flex-direction: row;
     
     gap:20px;
-    padding: 0px;
+    padding: -10px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(0, 0, 0, 0.1);
     
     
 `;

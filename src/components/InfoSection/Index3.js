@@ -19,7 +19,7 @@ import {
 
         } from './InfoElements1';
 
-const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, subheading3, subheading4, subheading5, subheading6, subdescription1,img, alt, heading1,description1,button}) => {
+const InfoSection3 = ({ heading, description, subheading1, subheading2, subheading3, subheading4, subheading5, subheading6, subdescription1,img, alt, heading1,description1,button}) => {
     const [show,setShow] =useState(false);
     const [show1,setShow1] =useState(false);
     const [show2,setShow2] =useState(false);
@@ -45,11 +45,12 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 {
                     show && <SubDescription>{subdescription1}</SubDescription>
                 }
+                
                 </InfoColumn1>
                 <InfoColumn2>
                 <Button primary={true}onClick={() => setShow(!show)}>
                     {
-                        show === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show === false ? <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
@@ -67,7 +68,7 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 <InfoColumn2>
                 <Button primary={true} onClick={() => setShow1(!show1)}>
                     {
-                        show1 === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show1 === false ?  <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
@@ -83,7 +84,7 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 <InfoColumn2>
                 <Button primary={true} onClick={() => setShow2(!show2)}>
                     {
-                        show2 === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show2 === false ?  <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
@@ -99,7 +100,7 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 <InfoColumn2>
                 <Button primary={true} onClick={() => setShow3(!show3)}>
                     {
-                        show3 === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show3 === false ?  <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
@@ -115,7 +116,7 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 <InfoColumn2>
                 <Button primary={true} onClick={() => setShow4(!show4)}>
                     {
-                        show4 === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show4 === false ?  <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
@@ -131,7 +132,7 @@ const InfoSection3 = ({toggle, heading, description, subheading1, subheading2, s
                 <InfoColumn2>
                 <Button primary={true} onClick={() => setShow5(!show5)}>
                     {
-                        show5 === false ? <BiPlusCircle color='black'/> : <BiMinusCircle color='black'/>
+                        show5 === false ? <BiPlusCircle color='#0082FF' size={'24px'}/> : <BiMinusCircle color='#0082FF' size={'24px'}/>
                     }
                 </Button>
                 </InfoColumn2>
