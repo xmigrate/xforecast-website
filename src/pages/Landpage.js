@@ -12,10 +12,9 @@ import { TbArrowRightCircle } from "react-icons/tb";
 
 function Landpage() {
   return (
-    <div className="Landpagediv">
-      <Navbar className="navdiv" collapseOnSelect expand="lg" variant="dark">
+    <div className="Landpagediv h-100">
+       <Navbar className="navdiv py-3" collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand href="#home">
-          {" "}
           <img
             src="/assets/logo.png"
             width="130"
@@ -26,25 +25,27 @@ function Landpage() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
-            <Nav.Link href="#license">License</Nav.Link>
-            <Nav.Link href="#about us">About us</Nav.Link>
-            <Nav.Link href="#how to start">How to start</Nav.Link>
-            <button className="gitbtn">
-              <FaGithub size={18} /> Get started on Github
+          <Nav className="ms-auto links">
+            <Nav.Link  className="links" href="#license">License</Nav.Link>
+            <Nav.Link className="links" href="#about us">About us</Nav.Link>
+            <Nav.Link className="links" href="#how to start">How to start</Nav.Link>
+            <button className="gitbtn p-2">
+              <FaGithub size={18} /> <span className="links ms-2">Get started on Github</span>
             </button>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-      <Row className="justify-content-md-center m-0">
+      </Navbar> 
+      <Row className="vh-100 d-flex justify-content-center align-items-center m-0">
         <Col md="auto" className="headcol">
+        <div>
           <h1>An Open-source AIOPs tool<br />for your observability stack</h1>
-          <p className="headpara">Xforecast, a light weight realtime plug and play tool for predictive<br />
+          </div>
+           <p className="headpara">Xforecast, a light weight realtime plug and play tool for predictive<br />
             analytics Trade with confidence on the world’s fastest and most<br />
             secure cloud monitor exchange</p>
           <Button className="prbtn1" variant="primary">Start forecasting <TbArrowRightCircle size={15} /> </Button>
-          <Button className="prbtn2">View Demo </Button>
-        </Col>
+          <Button className="prbtn2">View Demo </Button> 
+      </Col> 
       </Row>
     </div>
   );
