@@ -1,4 +1,4 @@
-import { Nav, Navbar, Row, Col, Button } from "react-bootstrap";
+import { Nav, Navbar, Row, Col, Button, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Landpage.css";
 import { FaGithub, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
@@ -86,7 +86,7 @@ function Landpage() {
               Now we support InfluxDB and Prometheus as source/target
               datasources.
               <br /> Datasource compatibility is the only pre-requisite to run
-              xforecast{" "}
+              xforecast
             </p>
           </div>
           <div
@@ -119,19 +119,129 @@ function Landpage() {
           </div>
         </Col>
       </Row>
-      <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 pb-5">
+      <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 pb-5 features">
         <Col>
           <div>
             <h6>THE CORE STRUCTURE</h6>
             <h2>AIOPs with Xforecast</h2>
           </div>
+          <Row xs={1} md={3} className="g-4 pt-5">
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/Predict.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Predict multiple metrics</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/Declarative.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Declarative metrics </Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/run.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/Forecasting.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/Hyperparameter.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col>
+              <Card className="featurescard">
+                <Card.Img
+                  variant="top"
+                  src="/assets/communityico.png"
+                  width={80}
+                  height={80}
+                />
+                <Card.Body>
+                  <Card.Title>Card title</Card.Title>
+                  <Card.Text>
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </Col>
       </Row>
       <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 ">
         <Col>
           <div>
-            <div className="d-flex justify-content-center align-items-center">
-              <span>XFORECAST COMMUNITY</span>
+            <div className="d-flex justify-content-center align-items-center mb-2">
+              <span className="Community px-3 py-2">XFORECAST COMMUNITY</span>
             </div>
             <h2>
               Learn more and get involved <br />

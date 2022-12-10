@@ -170,3 +170,50 @@ color: white;
 justify-content: center;
     display: flex;
 }
+.Community{
+    background: linear-gradient(102.62deg, #2F80ED -9.8%, #6CA1E9 50.8%, #2F80ED 105.41%);
+border-radius: 100px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+}
+.features{
+        padding-left: 10%;
+    padding-right: 10%;
+}
+
+.card-title{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+text-align: center;
+color: #F6F6FD;
+}
+.card-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+color: #CDCECD;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featurescard{
+    height: 448px;
+    background: linear-gradient(180deg, rgba(34, 31, 46, 0.36) -2.34%, rgba(22, 20, 31, 0) 100%);
+    border-radius: 24px;
+    border: 1px solid #424243;
+}
+.card-img-top{
+  width: auto;
+}
