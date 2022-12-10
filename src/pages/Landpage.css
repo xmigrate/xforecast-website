@@ -1,3 +1,21 @@
+h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h6{
+    font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #2F80ED;
+text-align: center;
+}
 .navdiv {
     background-color: #000000;
     margin-left: 5%;
@@ -23,13 +41,22 @@
     border-radius: 100px;
     align-items: center;
     border-color: #1B1A1A;
+    border: none;
 
+}
+.homepage{
+    background-repeat: no-repeat, no-repeat;
+    background-position: center bottom, center bottom;
+    background-size: contain,contain;
 }
 
 .headcol{
     padding-bottom: 20rem;
 }
 
+.webframe{
+    box-shadow: 0px -3px 170px 0px #2666be;
+}
 .Landpagediv h1 {
     font-family: 'Manrope';
     font-style: normal;
@@ -47,7 +74,6 @@
     font-size: 24px;
     line-height: 34px;
     text-align: center;
-    padding-top: 29px;
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -60,9 +86,9 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
-    gap: 10px;
+    height: 50px;
+    width: 191px;
 
 }
 
@@ -78,7 +104,69 @@
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
     color: #FFFFFF;
-    gap: 10px;
+    height: 50px;
+    width: 191px;
+}
+.foot{
+    background: #1B1B21;
+    height: 134px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.linksfoot a{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+    text-decoration: none;
+color: #B0B0BA;
+justify-content: center;
+    display: flex;
+}
+.linksfoot{
+    align-items: center;
+    display: flex;
+}
+.icons{
+    color: white;
+    margin-right:10px ;
+}
+
+.footlist{
+    list-style-type: none;
+    display: flex;
+    gap:35px;
+}
+.gitbtnfoot{
+    background: #5A97EA;
+    border-radius: 100px;
+    height: 54px;
+    gap: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+.footsecond{
+    background: #0A0A0D;
+    height: 106px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footlistsecond{
+    list-style-type: none;
+    display: flex;
+    gap:40px;
+}
+.linksfootsecond a{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+    text-decoration: none;
+color: white;
+justify-content: center;
+    display: flex;
 }
