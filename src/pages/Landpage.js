@@ -5,6 +5,9 @@ import { FaGithub, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
 import { TbArrowRightCircle } from "react-icons/tb";
 import image from "../Images/Ellipse.svg";
 import image2 from "../Images/imgbg.png";
+import bg from "../Images/bgselect.png";
+import bg2 from "../Images/bg2.png";
+import bg3 from "../Images/bg3.png";
 
 function Landpage() {
   return (
@@ -128,13 +131,19 @@ function Landpage() {
           <Row xs={1} md={3} className="g-4 pt-5">
             <Col>
               <Card className=" featurescard ">
-                <Card.Img
-                  variant="top"
-                  src="/assets/Predict.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/Predict.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Predict multiple metrics</Card.Title>
                   <Card.Text>
                     Xforecast configuration file can be updated to support
@@ -145,13 +154,19 @@ function Landpage() {
             </Col>
             <Col>
               <Card className="featurescard">
-                <Card.Img
-                  variant="top"
-                  src="/assets/Declarative.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/Declarative.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Declarative metrics </Card.Title>
                   <Card.Text>
                     Metrics config is decalarative and should be defined in
@@ -162,13 +177,19 @@ function Landpage() {
             </Col>
             <Col>
               <Card className="featurescard">
-                <Card.Img
-                  variant="top"
-                  src="/assets/run.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/run.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Run anywhere</Card.Title>
                   <Card.Text>
                     Xforecast can be run as a container in a VM or in any
@@ -179,13 +200,19 @@ function Landpage() {
             </Col>
             <Col>
               <Card className="featurescard">
-                <Card.Img
-                  variant="top"
-                  src="/assets/Forecasting.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/Forecasting.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Data forecasting</Card.Title>
                   <Card.Text>
                     This is the core functionality of xforecast. Make
@@ -196,13 +223,19 @@ function Landpage() {
             </Col>
             <Col>
               <Card className="featurescard">
-                <Card.Img
-                  variant="top"
-                  src="/assets/Hyperparameter.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/Hyperparameter.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Hyperparameter tuning</Card.Title>
                   <Card.Text>
                     Hyperparameters can be tuned per metric which is configured
@@ -213,13 +246,19 @@ function Landpage() {
             </Col>
             <Col>
               <Card className="featurescard">
-                <Card.Img
-                  variant="top"
-                  src="/assets/communityico.png"
-                  width={80}
-                  height={80}
-                />
-                <Card.Body>
+                <div className="imgdiv">
+                  <Card.Img
+                    variant="top"
+                    src="/assets/communityico.png"
+                    width={80}
+                    height={80}
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
                   <Card.Title>Community support</Card.Title>
                   <Card.Text>
                     Quick support from the active community. Post any questions

@@ -207,12 +207,31 @@ color: #CDCECD;
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+.card-body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: 10000px 10000px;
+}
+.card-body:hover {   background-repeat: no-repeat;
+    background-position: bottom !important}
+.imgdiv{
+    height: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
 .featurescard{
     height: 448px;
     background: linear-gradient(180deg, rgba(34, 31, 46, 0.36) -2.34%, rgba(22, 20, 31, 0) 100%);
     border-radius: 24px;
     border: 1px solid #424243;
+
 }
 .card-img-top{
   width: auto;
