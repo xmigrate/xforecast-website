@@ -30,7 +30,7 @@ function Landpage() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto links">
-            <Nav.Link className="links" href="#license">
+            {/* <Nav.Link className="links" href="#license">
               License
             </Nav.Link>
             <Nav.Link className="links" href="#about us">
@@ -38,16 +38,23 @@ function Landpage() {
             </Nav.Link>
             <Nav.Link className="links" href="#how to start">
               How to start
-            </Nav.Link>
-            <button className="gitbtn p-2">
-              <FaGithub size={18} />{" "}
-              <span className="links ms-2">Get started on Github</span>
-            </button>
+            </Nav.Link> */}
+            <a
+              href="https://github.com/xmigrate/xforecast"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="gitbtn p-2">
+                <FaGithub size={18} />
+                <span className="links ms-2">Get started on Github</span>
+              </button>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <div className="">
         <Row
+          id="Home"
           className="vh-100 d-flex justify-content-center align-items-center m-0 homepage"
           style={{ backgroundImage: `url(${image}), url(${image2})` }}
         >
@@ -68,9 +75,15 @@ function Landpage() {
               secure cloud monitor exchange
             </p>
             <div className="d-flex justify-content-center">
-              <Button className="prbtn1 px-3 " variant="primary">
-                Read docs <TbArrowRightCircle size={15} />
-              </Button>
+              <a
+                href="https://docs.xforecast.cloud/en/latest/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="prbtn1 px-3 " variant="primary">
+                  Read docs <TbArrowRightCircle size={15} />
+                </Button>
+              </a>
               <Button className="prbtn2 px-3 ">View Demo </Button>
             </div>
           </Col>
@@ -122,7 +135,10 @@ function Landpage() {
           </div>
         </Col>
       </Row>
-      <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 pb-5 features">
+      <Row
+        id="Features"
+        className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 pb-5 features"
+      >
         <Col>
           <div>
             <h6>THE CORE STRUCTURE</h6>
@@ -268,6 +284,60 @@ function Landpage() {
               </Card>
             </Col>
           </Row>
+          <Row xs={1} md={2} className="g-4 pt-5">
+            <Col md={8}>
+              <Card className=" featurescardPremium ">
+                <div className="PremiumBtn">Premium</div>
+                <div className="imgdivPremium">
+                  <div className="upperglow"></div>
+                  <Card.Img
+                    className="special1"
+                    variant="top"
+                    src="/assets/premium1.png"
+                    width="80%"
+                    height="80%"
+                  />
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
+                  <Card.Title>Multi-dimensional data forecasting</Card.Title>
+                  <Card.Text>
+                    Xforecast support predictions on multi-dimensional data and
+                    this makes the predictions more accurate
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col md={4}>
+              <Card className=" featurescardPremium ">
+                <div className="PremiumBtn">Premium</div>
+                <div className="imgdivPremium">
+                  <div className="bgpower"></div>
+                  <Card.Img
+                    className="special2"
+                    variant="top"
+                    src="/assets/premium2.png"
+                    width="70%"
+                    height="80%"
+                  />
+                  <div className="linergrade"></div>
+                </div>
+                <Card.Body
+                  style={{
+                    backgroundImage: `url(${bg}), url(${bg2}), url(${bg3})`,
+                  }}
+                >
+                  <Card.Title>Web console</Card.Title>
+                  <Card.Text>
+                    Configure, manage and monitor xforecast from web dashboard
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
         </Col>
       </Row>
       <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 ">
@@ -305,15 +375,20 @@ function Landpage() {
                 </a>
               </li>
               <li className="linksfoot">
-                <a href="#feature">
+                <a
+                  href="https://github.com/xmigrate/xforecast"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FaYoutube className="icons" size={18} />
                   Youtube
                 </a>
               </li>
               <li className="linksfoot">
                 <a
-                  href="https://github.com/xmigrate/xmigrate/discussions/"
+                  href="https://docs.xforecast.cloud/en/latest/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaMedium className="icons" size={18} />
                   Medium
@@ -321,19 +396,25 @@ function Landpage() {
               </li>
               <li className="linksfoot">
                 <a
-                  href="https://github.com/xmigrate/xmigrate/discussions/"
+                  href="https://github.com/xmigrate/xforecast"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <FaGithub className="icons" size={18} />
                   Github
                 </a>
               </li>
             </ul>
-
-            <button className="gitbtnfoot p-2">
-              <FaGithub size={18} />
-              <span className="links ms-2">Get started on Github</span>
-            </button>
+            <a
+              href="https://github.com/xmigrate/xforecast"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="gitbtnfoot p-2">
+                <FaGithub size={18} />
+                <span className="links ms-2">Get started on Github</span>
+              </button>
+            </a>
           </div>
         </Col>
       </Row>
@@ -352,16 +433,16 @@ function Landpage() {
                 <a href="#Home">Home</a>
               </li>
               <li className="linksfootsecond">
-                <a href="#feature">Community</a>
+                <a
+                  href="https://github.com/xmigrate/xforecast/discussions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Community
+                </a>
               </li>
               <li className="linksfootsecond">
-                <a
-                  href="https://github.com/xmigrate/xmigrate/discussions/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Features
-                </a>
+                <a href="#Features">Features</a>
               </li>
             </ul>
           </div>
