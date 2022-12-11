@@ -69,7 +69,7 @@ function Landpage() {
             </p>
             <div className="d-flex justify-content-center">
               <Button className="prbtn1 px-3 " variant="primary">
-                Start forecasting <TbArrowRightCircle size={15} />{" "}
+                Read docs <TbArrowRightCircle size={15} />
               </Button>
               <Button className="prbtn2 px-3 ">View Demo </Button>
             </div>
