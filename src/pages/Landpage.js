@@ -127,7 +127,7 @@ function Landpage() {
           </div>
           <Row xs={1} md={3} className="g-4 pt-5">
             <Col>
-              <Card className="featurescard">
+              <Card className=" featurescard ">
                 <Card.Img
                   variant="top"
                   src="/assets/Predict.png"
@@ -137,9 +137,8 @@ function Landpage() {
                 <Card.Body>
                   <Card.Title>Predict multiple metrics</Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Xforecast configuration file can be updated to support
+                    multiple metrics prediction at the same time
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -155,9 +154,8 @@ function Landpage() {
                 <Card.Body>
                   <Card.Title>Declarative metrics </Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Metrics config is decalarative and should be defined in
+                    config.yml file and cordinates
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -171,11 +169,10 @@ function Landpage() {
                   height={80}
                 />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Run anywhere</Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Xforecast can be run as a container in a VM or in any
+                    kubernetes environment
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -189,11 +186,10 @@ function Landpage() {
                   height={80}
                 />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Data forecasting</Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    This is the core functionality of xforecast. Make
+                    predictions on any given metric.
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -207,11 +203,10 @@ function Landpage() {
                   height={80}
                 />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Hyperparameter tuning</Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Hyperparameters can be tuned per metric which is configured
+                    for predictions
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -225,11 +220,10 @@ function Landpage() {
                   height={80}
                 />
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
+                  <Card.Title>Community support</Card.Title>
                   <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
+                    Quick support from the active community. Post any questions
+                    or issues in github discussions.
                   </Card.Text>
                 </Card.Body>
               </Card>
