@@ -2,6 +2,7 @@ import { Nav, Navbar, Row, Col, Button, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Landpage.css";
 import { FaGithub, FaTwitter, FaYoutube, FaMedium } from "react-icons/fa";
+import { HiOutlineCube } from "react-icons/hi";
 import { TbArrowRightCircle } from "react-icons/tb";
 import image from "../Images/Ellipse.svg";
 import image2 from "../Images/imgbg.png";
@@ -290,13 +291,20 @@ function Landpage() {
                 <div className="PremiumBtn">Premium</div>
                 <div className="imgdivPremium">
                   <div className="upperglow"></div>
-                  <Card.Img
+                  {/* <Card.Img
                     className="special1"
                     variant="top"
                     src="/assets/premium1.png"
                     width="80%"
                     height="80%"
+                  /> */}
+                  <HiOutlineCube
+                    size={180}
+                    style={{
+                      color: "#31353a",
+                    }}
                   />
+                  <div className="linergrade"></div>
                 </div>
                 <Card.Body
                   style={{
