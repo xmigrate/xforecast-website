@@ -31,15 +31,15 @@ function Landpage() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto links">
-            {/* <Nav.Link className="links" href="#license">
-              License
+            <Nav.Link className="links" href="#home">
+              Home
             </Nav.Link>
-            <Nav.Link className="links" href="#about us">
-              About us
+            <Nav.Link className="links" href="#Features">
+              Features
             </Nav.Link>
-            <Nav.Link className="links" href="#how to start">
-              How to start
-            </Nav.Link> */}
+            <Nav.Link className="links" href="#Community">
+              Community
+            </Nav.Link>
             <a
               href="https://github.com/xmigrate/xforecast"
               target="_blank"
@@ -348,7 +348,10 @@ function Landpage() {
           </Row>
         </Col>
       </Row>
-      <Row className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 ">
+      <Row
+        id="Community"
+        className="h-100 d-flex justify-content-center align-items-center m-0 pt-5 "
+      >
         <Col>
           <div>
             <div className="d-flex justify-content-center align-items-center mb-2">
