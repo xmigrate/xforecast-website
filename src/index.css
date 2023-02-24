@@ -1,0 +1,9 @@
+body {
+  font-family: "Manrope" !important;
+  font-style: normal;
+  background-color: #000000 !important;
+  height: 100%
+}
+#root{
+  height: 100%
+}
